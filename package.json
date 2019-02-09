@@ -1,0 +1,29 @@
+{
+  "name": "skylark-backbone-uploader",
+  "version": "0.9.0",
+  "description": "The backbone file upload manager use skylark-backbone",
+  "keywords": [
+    "skylark",
+    "skylarkjs",
+    "backbone",
+    "files",
+    "uploader"
+  ],
+  "dependencies": {
+    "skylark-backbone": "git+https://github.com/skylark-integration/skylark-backbone.git#master",
+    "skylark-fw-model": "git+https://github.com/skylarkfw/skylark-fw-model.git#master",
+    "skylark-jquery": "git+https://github.com/skylark-integration/skylark-jquery.git#master",
+    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
+    "skylark-underscore": "git+https://github.com/skylark-integration/skylark-underscore.git#master",
+    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master",
+    "skylark-utils-filer": "git+https://github.com/skylarkutils/skylark-utils-filer.git#master"
+  },
+  "scripts": {
+    "build": "sbundle build ."
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-integration/skylark-backbone.git"
+  }
+}
