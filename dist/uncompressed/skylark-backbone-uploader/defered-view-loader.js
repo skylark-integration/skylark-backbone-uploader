@@ -5,7 +5,7 @@
  * @link sroze.io
  * @link github.com/sroze
  */
-define("backbone-defered-view-loader",[
+define([
     "skylark-backbone"
 ],function(Backbone) {
     /**

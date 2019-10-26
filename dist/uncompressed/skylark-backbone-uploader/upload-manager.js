@@ -1,9 +1,9 @@
 
 define([
-    "skylark-utils-filer/uploader",
     "skylark-backbone",
+    "./uploader",
     "./defered-view-loader"
-],function(uploader,Backbone) {
+],function(Backbone,uploader) {
 /**
  * Backbone Upload Manager v1.0.0
  *

@@ -11,12 +11,12 @@
   ],
   "dependencies": {
     "skylark-backbone": "git+https://github.com/skylark-integration/skylark-backbone.git#master",
-    "skylark-fw-model": "git+https://github.com/skylarkfw/skylark-fw-model.git#master",
+    "skylark-domx-eventer": "git+https://github.com/skylark-domx/skylark-domx-eventer.git#master",
+    "skylark-domx-files": "git+https://github.com/skylark-domx/skylark-domx-files.git#master",
+    "skylark-domx-query": "git+https://github.com/skylark-domx/skylark-domx-query.git#master",
     "skylark-jquery": "git+https://github.com/skylark-integration/skylark-jquery.git#master",
     "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
-    "skylark-underscore": "git+https://github.com/skylark-integration/skylark-underscore.git#master",
-    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master",
-    "skylark-utils-filer": "git+https://github.com/skylarkutils/skylark-utils-filer.git#master"
+    "skylark-net-http": "git+https://github.com/skylark-net/skylark-net-http.git#master"
   },
   "scripts": {
     "build": "sbundle build ."

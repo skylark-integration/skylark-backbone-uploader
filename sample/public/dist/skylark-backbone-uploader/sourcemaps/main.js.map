@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["define","Backbone"],"mappings":";;;;;;;AAAAA,QACC,mBACA,wBACA,oBACC,SAASC,GACV,OAAOA","file":"../main.js","sourcesContent":["define([\r\n\t\"skylark-backbone\",\r\n\t\"./defered-view-loader\",\r\n\t\"./upload-manager\"\r\n],function(Backbone){\r\n\treturn Backbone\r\n});"]}

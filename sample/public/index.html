@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Backbone Upload Manager Sample</title>
+
+        <!-- Dependencies tyles -->
+        <link href="vendor/css/bootstrap-3.3.7.css" rel="stylesheet" />
+        <link href="vendor/css/bootstrap-theme-3.3.7.css" rel="stylesheet" />
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="vendor/js/html5shiv.js"></script>
+        <![endif]-->
+        
+        <!-- Upload Manager style -->
+        <link href="skins/css/backbone.upload-manager.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div style="margin: 100px; width: 600px;" id="manager-area"></div>
+        
+        <!-- Dependencies scripts -->
+
+        <!-- Upload Manager script -->
+        <script type="text/javascript" src="dist/uncompressed/skylark-backbone-uploader-all.js"></script>
+        
+        <!-- Start upload manager -->
+        <script type="text/javascript">
+        $(function(){
+            // Reset the baseUrl of template manager
+            var Backbone = $.skylark.itg.backbone;
+
+            Backbone.TemplateManager.baseUrl = '{name}';
+            
+            // Create the upload manager object
+	        var uploadManager = new Backbone.UploadManager({
+	            uploadUrl: '/upload/default',
+	            templates: {
+	                main: 'templates/upload-manager.main',
+	                file: 'templates/upload-manager.file'
+	            }
+	        });
+            
+            // Render it in our div
+	        uploadManager.renderTo($('div#manager-area'));
+        });
+        </script>
+    </body>
+</html>
